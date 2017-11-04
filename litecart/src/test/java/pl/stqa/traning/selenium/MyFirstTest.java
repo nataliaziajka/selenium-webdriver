@@ -18,5 +18,6 @@ public class MyFirstTest extends TestBase {
         driver.findElement(By.name("q")).sendKeys("webdriver" + Keys.ENTER);
         wait.until(titleIs("webdriver - Szukaj w Google"));
 
+
     }
 }
