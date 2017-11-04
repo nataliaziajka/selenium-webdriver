@@ -28,13 +28,12 @@ public class LoginTest {
     @Test
     public void loginTest() throws InterruptedException {
         webdriver.get("http://localhost:8012/litecart/admin/login.php");
-        WebElement id = webdriver.findElement(By.name("username"));
+        webdriver.findElement(By.name("username")).sendKeys("admin");
+        webdriver.findElement(By.name("password")).sendKeys("admin");
 
-        WebElement pass = webdriver.findElement(By.name("password"));
         WebElement button = webdriver.findElement(By.xpath(".//*[@id='box-login']/form/div[2]/button"));
-        id.sendKeys("admin");
-        pass.sendKeys("admin");
         if (!webdriver.findElement(By.name("remember_me")).isSelected()) {
+        webdriver.findElement(By.name("remember_me")).click();
 
         }
         button.submit();

@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f42f27f9-03ee-44b1-bf4f-df5072268704" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/litecart/build/classes/test/pl/stqa/traning/selenium/MyFirstTest.class" afterPath="$PROJECT_DIR$/litecart/build/classes/test/pl/stqa/traning/selenium/MyFirstTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/litecart_main.iml" afterPath="$PROJECT_DIR$/.idea/modules/litecart_main.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/litecart_test.iml" afterPath="$PROJECT_DIR$/.idea/modules/litecart_test.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/litecart/src/test/java/pl/stqa/traning/selenium/MyFirstTest.java" afterPath="$PROJECT_DIR$/litecart/src/test/java/pl/stqa/traning/selenium/MyFirstTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/litecart/src/test/java/eu/stqa/traning/selenium/LoginTest.java" afterPath="$PROJECT_DIR$/litecart/src/test/java/eu/stqa/traning/selenium/LoginTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -44,24 +39,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-      <file leaf-file-name="LoginTest.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="LoginTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/litecart/src/test/java/eu/stqa/traning/selenium/LoginTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="990">
-              <caret line="45" column="28" lean-forward="true" selection-start-line="45" selection-start-column="28" selection-end-line="45" selection-end-column="28" />
+            <state relative-caret-position="179">
+              <caret line="35" column="62" lean-forward="false" selection-start-line="35" selection-start-column="62" selection-end-line="35" selection-end-column="62" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="110">
-              <caret line="74" column="2" lean-forward="true" selection-start-line="74" selection-start-column="2" selection-end-line="74" selection-end-column="2" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -544,8 +529,8 @@
         <option value="$PROJECT_DIR$/litecart/src/main/java/pages/BasePage.java" />
         <option value="$PROJECT_DIR$/litecart/src/test/java/eu/stqa/traning/selenium/BaseTest.java" />
         <option value="$PROJECT_DIR$/litecart/src/test/java/eu/stqa/traning/selenium/Login2Test.java" />
-        <option value="$PROJECT_DIR$/litecart/src/test/java/eu/stqa/traning/selenium/LoginTest.java" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/litecart/src/test/java/eu/stqa/traning/selenium/LoginTest.java" />
       </list>
     </option>
   </component>
@@ -982,12 +967,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="LoginTest - 2017.11.04 at 11h 47m 46s.xml">
-      <configuration name="LoginTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LoginTest - 2017.11.04 at 11h 48m 40s.xml">
-      <configuration name="LoginTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="LoginTest - 2017.11.04 at 11h 51m 05s.xml">
       <configuration name="LoginTest" configurationId="JUnit" />
     </history-entry>
@@ -1010,6 +989,12 @@
       <configuration name="LoginTest" configurationId="JUnit" />
     </history-entry>
     <history-entry file="LoginTest - 2017.11.04 at 12h 15m 34s.xml">
+      <configuration name="LoginTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LoginTest - 2017.11.04 at 13h 56m 25s.xml">
+      <configuration name="LoginTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LoginTest - 2017.11.04 at 13h 57m 59s.xml">
       <configuration name="LoginTest" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -1248,21 +1233,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/litecart/src/test/java/eu/stqa/traning/selenium/LoginTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="990">
-          <caret line="45" column="28" lean-forward="true" selection-start-line="45" selection-start-column="28" selection-end-line="45" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="110">
           <caret line="74" column="2" lean-forward="true" selection-start-line="74" selection-start-column="2" selection-end-line="74" selection-end-column="2" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/litecart/src/test/java/eu/stqa/traning/selenium/LoginTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="35" column="62" lean-forward="false" selection-start-line="35" selection-start-column="62" selection-end-line="35" selection-end-column="62" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
