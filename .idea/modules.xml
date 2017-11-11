@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/litecart.iml" filepath="$PROJECT_DIR$/.idea/modules/litecart.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/litecart_test.iml" filepath="$PROJECT_DIR$/.idea/modules/litecart_test.iml" group="litecart" />
+      <module fileurl="file://$PROJECT_DIR$/litecart/src/main.iml" filepath="$PROJECT_DIR$/litecart/src/main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/selenium-webdriver.iml" filepath="$PROJECT_DIR$/.idea/modules/selenium-webdriver.iml" />
     </modules>
   </component>

@@ -8,8 +8,17 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.edge.EdgeDriver;
+import org.openqa.selenium.firefox.FirefoxBinary;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.firefox.FirefoxOptions;
+import org.openqa.selenium.ie.InternetExplorerDriver;
+import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+
+import java.io.File;
+
 
 /**
  * Created by Natalia on 2017-11-03.
@@ -21,8 +30,14 @@ public class LoginTest {
 
     @Before
     public void setup() {
-        webdriver = new ChromeDriver();
-        wait = new WebDriverWait(webdriver, 10);
+        //webdriver = new ChromeDriver();
+        //webdriver = new EdgeDriver();
+        //webdriver = new FirefoxDriver(); //new schema enale wlaczona
+          DesiredCapabilities caps = new DesiredCapabilities();
+          caps.setCapability(FirefoxDriver.MARIONETTE, false);  // new schema disable
+          webdriver = new FirefoxDriver(caps);
+          wait = new WebDriverWait(webdriver, 10);
+
     }
 
     @Test
