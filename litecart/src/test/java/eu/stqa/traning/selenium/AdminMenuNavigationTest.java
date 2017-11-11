@@ -15,7 +15,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 /**
  * Created by Natalia on 2017-11-11.
  */
-public class AdminMenuNavigation {
+public class AdminMenuNavigationTest {
 
     private WebDriver webdriver;
     private WebDriverWait wait;
