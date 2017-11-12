@@ -7,10 +7,11 @@ import org.junit.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.firefox.FirefoxDriver;
-import org.openqa.selenium.remote.DesiredCapabilities;
+import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+
+import java.util.concurrent.TimeUnit;
 
 /**
  * Created by Natalia on 2017-11-11.
@@ -22,12 +23,8 @@ public class AdminMenuNavigationTest {
 
     @Before
     public void setup() {
-        //webdriver = new ChromeDriver();
-        //webdriver = new EdgeDriver();
-        //webdriver = new FirefoxDriver(); //new schema enale wlaczona
-        DesiredCapabilities caps = new DesiredCapabilities();
-        caps.setCapability(FirefoxDriver.MARIONETTE, false);  // new schema disable
-        webdriver = new FirefoxDriver(caps);
+        webdriver = new ChromeDriver();
+        webdriver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         wait = new WebDriverWait(webdriver, 10);
 
     }
@@ -43,11 +40,11 @@ public class AdminMenuNavigationTest {
             webdriver.findElement(By.name("remember_me")).click();
 
         }
-        button.submit();
+        button.click();
         Assert.assertTrue(wait.until(ExpectedConditions.titleIs("My Store")));
 
-        int numberElementsInMenu = webdriver.findElements(By.cssSelector("ul#box-apps-menu li")).size();
         int numberSubmenuElement = 0;
+        int numberElementsInMenu = webdriver.findElements(By.cssSelector("ul#box-apps-menu li")).size();
         for (int i = 0; i < numberElementsInMenu; i++) {
             WebElement menuElement = webdriver.findElements(By.cssSelector("ul#box-apps-menu li")).get(i + numberSubmenuElement);
 
@@ -57,8 +54,10 @@ public class AdminMenuNavigationTest {
             numberSubmenuElement = webdriver.findElements(By.cssSelector("ul#box-apps-menu ul li")).size();
             for (int j = 1; j <= numberSubmenuElement; j++) {
                 WebElement submenuElement = webdriver.findElement(By.cssSelector("ul#box-apps-menu ul li:nth-child(" + j + ")"));
+
                 String textFromSubmenu = submenuElement.getText();
                 submenuElement.click();
+
                 String h1Text = webdriver.findElement(By.cssSelector("h1")).getText();
                 if (menuText.equals("Settings")) {
                     Assert.assertEquals("Settings", h1Text);
