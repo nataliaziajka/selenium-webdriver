@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f42f27f9-03ee-44b1-bf4f-df5072268704" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/litecart/src/test/java/eu/stqa/traning/selenium/AdminMenuNavigationTest.java" afterPath="$PROJECT_DIR$/litecart/src/test/java/eu/stqa/traning/selenium/AdminMenuNavigationTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -39,23 +38,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-      <file leaf-file-name="LoginTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/litecart/src/test/java/eu/stqa/traning/selenium/LoginTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="572">
-              <caret line="64" column="1" lean-forward="false" selection-start-line="58" selection-start-column="4" selection-end-line="64" selection-end-column="1" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="AdminMenuNavigationTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/litecart/src/test/java/eu/stqa/traning/selenium/AdminMenuNavigationTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="70" column="25" lean-forward="true" selection-start-line="70" selection-start-column="20" selection-end-line="70" selection-end-column="25" />
+            <state relative-caret-position="-787">
+              <caret line="32" column="44" lean-forward="false" selection-start-line="32" selection-start-column="44" selection-end-line="32" selection-end-column="44" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -63,14 +50,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="StickersTest.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/litecart/src/test/java/eu/stqa/traning/selenium/StickersTest.java">
+      <file leaf-file-name="CountrySortingTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/litecart/src/test/java/eu/stqa/traning/selenium/CountrySortingTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="38" column="114" lean-forward="false" selection-start-line="38" selection-start-column="83" selection-end-line="38" selection-end-column="114" />
+            <state relative-caret-position="273">
+              <caret line="64" column="65" lean-forward="false" selection-start-line="64" selection-start-column="65" selection-end-line="64" selection-end-column="65" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="StickersTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/litecart/src/test/java/eu/stqa/traning/selenium/StickersTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="33" column="107" lean-forward="false" selection-start-line="33" selection-start-column="80" selection-end-line="33" selection-end-column="107" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -560,8 +557,9 @@
         <option value="$PROJECT_DIR$/litecart/src/test/java/eu/stqa/traning/selenium/LoginTest.java" />
         <option value="$PROJECT_DIR$/litecart/src/test/java/eu/stqa/traning/selenium/AdminMenuNavigation.java" />
         <option value="$PROJECT_DIR$/litecart/src/test/java/eu/stqa/traning/selenium/AdminNavigationTest2.java" />
-        <option value="$PROJECT_DIR$/litecart/src/test/java/eu/stqa/traning/selenium/AdminMenuNavigationTest.java" />
         <option value="$PROJECT_DIR$/litecart/src/test/java/eu/stqa/traning/selenium/StickersTest.java" />
+        <option value="$PROJECT_DIR$/litecart/src/test/java/eu/stqa/traning/selenium/AdminMenuNavigationTest.java" />
+        <option value="$PROJECT_DIR$/litecart/src/test/java/eu/stqa/traning/selenium/CountrySortingTest.java" />
       </list>
     </option>
   </component>
@@ -706,33 +704,7 @@
       <recent name="pages" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.StickersTest">
-    <configuration default="false" name="MyFirstTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="pl.stqa.traning.selenium.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="litecart_test" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="pl.stqa.traning.selenium" />
-      <option name="MAIN_CLASS_NAME" value="pl.stqa.traning.selenium.MyFirstTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$/litecart" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="JUnit.CountrySortingTest">
     <configuration default="false" name="LoginTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -823,6 +795,32 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="eu.stqa.traning.selenium" />
       <option name="MAIN_CLASS_NAME" value="eu.stqa.traning.selenium.StickersTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$/litecart" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="CountrySortingTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="eu.stqa.traning.selenium.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="litecart_test" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="eu.stqa.traning.selenium" />
+      <option name="MAIN_CLASS_NAME" value="eu.stqa.traning.selenium.CountrySortingTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -1042,19 +1040,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.MyFirstTest" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.LoginTest" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.Login2Test" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.AdminMenuNavigationTest" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.StickersTest" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.LoginTest" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.Login2Test" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.AdminMenuNavigationTest" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.StickersTest" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.CountrySortingTest" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.StickersTest" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.AdminMenuNavigationTest" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.LoginTest" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.Login2Test" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.MyFirstTest" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.CountrySortingTest" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.StickersTest" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.AdminMenuNavigationTest" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.LoginTest" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.Login2Test" />
       </list>
     </recent_temporary>
   </component>
@@ -1072,40 +1070,40 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="AdminMenuNavigationTest - 2017.11.12 at 14h 08m 10s.xml">
-      <configuration name="AdminMenuNavigationTest" configurationId="JUnit" />
+    <history-entry file="CountrySortingTest - 2017.11.12 at 23h 29m 06s.xml">
+      <configuration name="CountrySortingTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AdminMenuNavigationTest - 2017.11.12 at 14h 09m 44s.xml">
-      <configuration name="AdminMenuNavigationTest" configurationId="JUnit" />
+    <history-entry file="CountrySortingTest - 2017.11.12 at 23h 34m 40s.xml">
+      <configuration name="CountrySortingTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AdminMenuNavigationTest - 2017.11.12 at 15h 53m 23s.xml">
-      <configuration name="AdminMenuNavigationTest" configurationId="JUnit" />
+    <history-entry file="CountrySortingTest - 2017.11.12 at 23h 36m 53s.xml">
+      <configuration name="CountrySortingTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AdminMenuNavigationTest - 2017.11.12 at 15h 57m 37s.xml">
-      <configuration name="AdminMenuNavigationTest" configurationId="JUnit" />
+    <history-entry file="CountrySortingTest - 2017.11.12 at 23h 38m 40s.xml">
+      <configuration name="CountrySortingTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AdminMenuNavigationTest - 2017.11.12 at 16h 18m 04s.xml">
-      <configuration name="AdminMenuNavigationTest" configurationId="JUnit" />
+    <history-entry file="CountrySortingTest - 2017.11.12 at 23h 39m 18s.xml">
+      <configuration name="CountrySortingTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AdminMenuNavigationTest - 2017.11.12 at 16h 18m 31s.xml">
-      <configuration name="AdminMenuNavigationTest" configurationId="JUnit" />
+    <history-entry file="CountrySortingTest - 2017.11.12 at 23h 49m 58s.xml">
+      <configuration name="CountrySortingTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AdminMenuNavigationTest - 2017.11.12 at 16h 32m 36s.xml">
-      <configuration name="AdminMenuNavigationTest" configurationId="JUnit" />
+    <history-entry file="CountrySortingTest - 2017.11.13 at 00h 01m 43s.xml">
+      <configuration name="CountrySortingTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StickersTest - 2017.11.12 at 15h 58m 29s.xml">
-      <configuration name="StickersTest" configurationId="JUnit" />
+    <history-entry file="CountrySortingTest - 2017.11.13 at 00h 18m 45s.xml">
+      <configuration name="CountrySortingTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StickersTest - 2017.11.12 at 16h 55m 38s.xml">
-      <configuration name="StickersTest" configurationId="JUnit" />
+    <history-entry file="CountrySortingTest - 2017.11.13 at 00h 19m 10s.xml">
+      <configuration name="CountrySortingTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StickersTest - 2017.11.12 at 17h 03m 18s.xml">
-      <configuration name="StickersTest" configurationId="JUnit" />
+    <history-entry file="CountrySortingTest - 2017.11.13 at 00h 29m 17s.xml">
+      <configuration name="CountrySortingTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-11" y="-11" width="1942" height="1042" extended-state="7" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1116,7 +1114,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31866825" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33412606" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1128,7 +1126,7 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6135553" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23067777" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1174,7 +1172,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="6" />
+      <option name="time" value="8" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1183,32 +1181,12 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/litecart/src/test/java/eu/stqa/traning/selenium/AdminMenuNavigationTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/litecart/src/test/java/eu/stqa/traning/selenium/StickersTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="660">
-          <caret line="41" column="39" lean-forward="false" selection-start-line="41" selection-start-column="39" selection-end-line="41" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/litecart/src/test/java/eu/stqa/traning/selenium/LoginTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
           <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="28" selection-end-column="31" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1222,7 +1200,7 @@
         <state relative-caret-position="1232">
           <caret line="56" column="5" lean-forward="false" selection-start-line="56" selection-start-column="5" selection-end-line="56" selection-end-column="5" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1234,7 +1212,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1244,7 +1222,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1254,7 +1232,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1264,7 +1242,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1274,7 +1252,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1285,7 +1263,7 @@
         <state relative-caret-position="154">
           <caret line="8" column="41" lean-forward="true" selection-start-line="8" selection-start-column="41" selection-end-line="8" selection-end-column="41" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1402,30 +1380,49 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/litecart/src/test/java/eu/stqa/traning/selenium/AdminMenuNavigationTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="70" column="25" lean-forward="true" selection-start-line="70" selection-start-column="20" selection-end-line="70" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/litecart/src/test/java/eu/stqa/traning/selenium/LoginTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="572">
           <caret line="64" column="1" lean-forward="false" selection-start-line="58" selection-start-column="4" selection-end-line="64" selection-end-column="1" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/junit/junit/4.11/28e0ad201304e4a4abf999ca0570b7cffc352c3c/junit-4.11-sources.jar!/org/junit/Assert.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="142" column="23" lean-forward="false" selection-start-line="142" selection-start-column="23" selection-end-line="142" selection-end-column="23" />
+          <folding>
+            <element signature="e#4408#4409#0" expanded="true" />
+            <element signature="e#4460#4461#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/litecart/src/test/java/eu/stqa/traning/selenium/StickersTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="38" column="114" lean-forward="false" selection-start-line="38" selection-start-column="83" selection-end-line="38" selection-end-column="114" />
+        <state relative-caret-position="323">
+          <caret line="33" column="107" lean-forward="false" selection-start-line="33" selection-start-column="80" selection-end-line="33" selection-end-column="107" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/litecart/src/test/java/eu/stqa/traning/selenium/AdminMenuNavigationTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-787">
+          <caret line="32" column="44" lean-forward="false" selection-start-line="32" selection-start-column="44" selection-end-line="32" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/litecart/src/test/java/eu/stqa/traning/selenium/CountrySortingTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="64" column="65" lean-forward="false" selection-start-line="64" selection-start-column="65" selection-end-line="64" selection-end-column="65" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

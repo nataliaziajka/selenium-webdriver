@@ -30,7 +30,7 @@ public class AdminMenuNavigationTest {
     }
 
     @Test
-    public void loginTest() throws InterruptedException {
+    public void walkThroughAllElementsInMenu() throws InterruptedException {
         webdriver.get("http://localhost:8012/litecart/admin/login.php");
         webdriver.findElement(By.name("username")).sendKeys("admin");
         webdriver.findElement(By.name("password")).sendKeys("admin");
