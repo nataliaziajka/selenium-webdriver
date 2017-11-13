@@ -55,14 +55,14 @@ public class CountrySortingTest {
         int zones = 0;
         int size = webdriver.findElements(By.cssSelector("tr.row")).size();
 
-        for (int i = 0; i < size; i++) {
+        for (int i = 0; i <size; i++) {
             countriesList = webdriver.findElements(By.cssSelector("tr.row"));
-            country = countriesList.get(i).findElement(By.xpath("td[6]"));
+            country = countriesList.get(i).findElement(By.xpath("//td[6]"));
             zones = Integer.parseInt(country.getText());
             if (zones != 0) {
                 countriesList.get(i).findElement(By.cssSelector(".row>td>a")).click();
                 List<WebElement> countriesListWithZones = webdriver.findElements(By.cssSelector("table.dataTable tr"));
-                for (int j = 0; j < countriesListWithZones.size(); j++) {
+                for (int j = 0; j < countriesListWithZones.size()-1; j++) {
                     countriesNames.add(countriesListWithZones.get(j).findElement(By.xpath("td[3]")).getText());
                 }
 
