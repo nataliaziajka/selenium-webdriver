@@ -48,6 +48,7 @@ public class CountrySortingTest {
 
         webdriver.navigate().to("http://localhost:8012/litecart/admin/?app=countries&doc=countries");
 
+
         List<String> countriesNames = new ArrayList<>();
         List<String> countriesNamesSorted = new ArrayList<>();
         WebElement country;
@@ -57,7 +58,7 @@ public class CountrySortingTest {
 
         for (int i = 0; i <size; i++) {
             countriesList = webdriver.findElements(By.cssSelector("tr.row"));
-            country = countriesList.get(i).findElement(By.xpath("//td[6]"));
+            country = countriesList.get(i).findElement(By.xpath("td[6]"));
             zones = Integer.parseInt(country.getText());
             if (zones != 0) {
                 countriesList.get(i).findElement(By.cssSelector(".row>td>a")).click();
@@ -73,13 +74,17 @@ public class CountrySortingTest {
             countriesNames.clear();
             countriesNamesSorted.clear();
             webdriver.navigate().back();
-
-
         }
-
-
     }
-
+        public List<String> listCountriesNames() {
+            List<WebElement> countriesList = webdriver.findElements( By.cssSelector( "tr.row" ) );
+            List<String> countriesNames = new ArrayList<>( );
+            for (WebElement element: countriesList) {
+                countriesNames.add( element.findElement( By.cssSelector( "td a" ) ).getText() );
+            }
+            return countriesNames;
+        }
+    
     @After
     public void teardown() {
         webdriver.quit();
