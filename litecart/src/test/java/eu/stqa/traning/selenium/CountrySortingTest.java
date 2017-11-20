@@ -1,5 +1,6 @@
 package eu.stqa.traning.selenium;
 
+import com.google.common.collect.Lists;
 import org.junit.After;
 import org.junit.Assert;
 import org.junit.Before;
@@ -48,42 +49,54 @@ public class CountrySortingTest {
 
         webdriver.navigate().to("http://localhost:8012/litecart/admin/?app=countries&doc=countries");
 
+        List<WebElement> countriesList = webdriver.findElements(By.cssSelector("tr.row"));
+        List<String> countriesTexts = Lists.newArrayList();
+        for (WebElement webElement : countriesList) {
+            countriesTexts.add(webElement.findElement(By.xpath("td[6]")).getText());
+        }
 
+        verifyTopLevel(countriesList);
+        verifyInnerLevels(countriesTexts);
+    }
+
+    private void verifyInnerLevels(List<String> countriesTexts) {
         List<String> countriesNames = new ArrayList<>();
         List<String> countriesNamesSorted = new ArrayList<>();
-        WebElement country;
-        List<WebElement> countriesList;
+
         int zones = 0;
-        int size = webdriver.findElements(By.cssSelector("tr.row")).size();
-
-        for (int i = 0; i <size; i++) {
-            countriesList = webdriver.findElements(By.cssSelector("tr.row"));
-            country = countriesList.get(i).findElement(By.xpath("td[6]"));
-            zones = Integer.parseInt(country.getText());
+        for (int i = 0; i < countriesTexts.size() -1; i++) {
+            zones = Integer.parseInt(countriesTexts.get(i));
             if (zones != 0) {
-                countriesList.get(i).findElement(By.cssSelector(".row>td>a")).click();
+                webdriver.findElements(By.cssSelector("tr.row")).get(i).findElement(By.cssSelector(".row>td>a")).click();
+                new WebDriverWait( webdriver, 1000).until( ExpectedConditions.presenceOfAllElementsLocatedBy( By.cssSelector( "table.dataTable tr" )));
                 List<WebElement> countriesListWithZones = webdriver.findElements(By.cssSelector("table.dataTable tr"));
-                for (int j = 0; j < countriesListWithZones.size()-1; j++) {
-                    countriesNames.add(countriesListWithZones.get(j).findElement(By.xpath("td[3]")).getText());
+                for (int j = 1; j < countriesListWithZones.size()-1; j++) {
+                    String text = countriesListWithZones.get(j).findElement(By.xpath("td[3]")).getText();
+                    countriesNames.add(text);
+                    countriesNamesSorted.add(text);
                 }
-
-                Collections.sort(countriesNames);
-                Assert.assertEquals(countriesNamesSorted,countriesNames);
-
+                Collections.sort(countriesNamesSorted);
+                Assert.assertEquals(countriesNamesSorted, countriesNames);
+                webdriver.navigate().back();
             }
             countriesNames.clear();
             countriesNamesSorted.clear();
-            webdriver.navigate().back();
         }
     }
-        public List<String> listCountriesNames() {
-            List<WebElement> countriesList = webdriver.findElements( By.cssSelector( "tr.row" ) );
-            List<String> countriesNames = new ArrayList<>( );
-            for (WebElement element: countriesList) {
-                countriesNames.add( element.findElement( By.cssSelector( "td a" ) ).getText() );
-            }
-            return countriesNames;
+
+    private void verifyTopLevel(List<WebElement> countriesList) {
+        List<String> countriesNames = new ArrayList<>();
+        List<String> countriesNamesSorted = new ArrayList<>();
+
+        for (int i = 0; i < countriesList.size() -1; i++) {
+            String text = countriesList.get(i).findElement(By.xpath("td[5]")).getText();
+            countriesNames.add(text);
+            countriesNamesSorted.add(text);
         }
+
+        Collections.sort(countriesNamesSorted);
+        Assert.assertEquals(countriesNamesSorted, countriesNames);
+    }
     
     @After
     public void teardown() {

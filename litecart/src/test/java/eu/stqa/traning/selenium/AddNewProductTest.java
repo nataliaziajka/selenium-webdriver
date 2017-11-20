@@ -63,7 +63,8 @@ public class AddNewProductTest {
         WebElement quantity = webdriver.findElement(By.name("quantity"));
         quantity.sendKeys("20");
         new Select(webdriver.findElement(By.name("sold_out_status_id"))).selectByValue("2");
-        webdriver.findElement(By.name("new_images[]")).sendKeys("C:\\Users\\Natalia\\Documents\\GitHub\\selenium-webdriver\\litecart\\src\\test\\resources\\picture.jpg");
+        //webdriver.findElement(By.name("new_images[]")).sendKeys("C:\\Users\\Natalia\\Documents\\GitHub\\selenium-webdriver\\litecart\\src\\test\\resources\\picture.jpg");
+        webdriver.findElement(By.xpath(".//*[@id='tab-general']/table/tbody/tr[9]/td/table/tbody/tr[1]/td/input")).sendKeys("C:\\Users\\Natalia\\Documents\\GitHub\\selenium-webdriver\\litecart\\src\\test\\resources\\picture.jpg");
         WebElement dateFrom = webdriver.findElement(By.name("date_valid_from"));
         Actions dateFromActions = new Actions(webdriver);
         dateFromActions
