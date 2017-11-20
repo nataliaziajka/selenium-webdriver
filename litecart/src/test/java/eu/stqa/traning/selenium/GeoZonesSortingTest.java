@@ -51,10 +51,8 @@ public class GeoZonesSortingTest {
         List<String> zonesNamesSorted = new ArrayList<>();
 
         int size = list.size();
-        List<WebElement> zones;
         List<String> zoneNames = new ArrayList<>();
-        for (int i = 1; i < size; i++) {
-            zones = list;
+        for (int i = 0; i < size; i++) {
             webdriver.findElements(By.cssSelector("tr.row")).get(i).findElement(By.xpath("//td[3]/a")).click();
             new WebDriverWait(webdriver, 1000).until(ExpectedConditions.presenceOfAllElementsLocatedBy(By.cssSelector("table.dataTable tr")));
             List<WebElement> zonesList = webdriver.findElements(By.cssSelector("table.dataTable tr"));
@@ -67,7 +65,7 @@ public class GeoZonesSortingTest {
             }
             Collections.sort(zoneNames);
             zonesNamesSorted = sort(zoneNames);
-            //Assert.assertEquals(zonesNamesSorted, zoneNames);
+            Assert.assertEquals(zonesNamesSorted, zoneNames);
             webdriver.navigate().back();
 
         }
